@@ -38,7 +38,7 @@ export default function LessonCard({
         animate={{ rotateY: flipped ? 180 : 0 }}
         whileHover={{ y: -6, scale: 1.03 }}
         transition={{ duration: 0.6, type: "spring", stiffness: 120, damping: 14 }}
-        className="group relative w-full h-full [transform-style:preserve-3d] focus:outline-none cursor-pointer"
+        className="group relative block w-full h-full [transform-style:preserve-3d] focus:outline-none cursor-pointer"
       >
         {/* 앞면 */}
         <div className="absolute inset-0 [backface-visibility:hidden] rounded-2xl bg-[#A8D8F0]/50 group-hover:bg-[#8A9DC0] transition-colors duration-300 shadow-md p-4 flex flex-col justify-between items-center">
